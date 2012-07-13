@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Copyright (C) 2011 lichtflut Forschungs- und Entwicklungsgesellschaft 
+	mbH -->
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+	version="2.4">
+
+	<display-name>Brouker</display-name>
+
+	<!-- There are three means to configure Wickets configuration mode and they 
+		are tested in the order given. 1) A system property: -Dwicket.configuration 
+		2) servlet specific <init-param> 3) context specific <context-param> The 
+		value might be either "development" (reloading when templates change) or 
+		"deployment". If no configuration is found, "development" is the default. -->
+
+	<filter>
+		<filter-name>spring.request-context-filter</filter-name>
+		<filter-class>org.springframework.web.filter.RequestContextFilter</filter-class>
+	</filter>
+	<filter>
+		<filter-name>rb.filter</filter-name>
+		<filter-class>de.lichtflut.rb.application.RBServletFilter</filter-class>
+	</filter>
+	<filter>
+		<filter-name>wicket.brouker</filter-name>
+		<filter-class>org.apache.wicket.protocol.http.WicketFilter</filter-class>
+		<init-param>
+			<param-name>applicationClassName</param-name>
+			<param-value>de.lichtflut.brouker.BroukerWebApplication</param-value>
+		</init-param>
+		<init-param>
+			<param-name>configuration</param-name>
+			<param-value>development</param-value>
+		</init-param>
+		<init-param>
+			<param-name>applicationFactoryClassName</param-name>
+			<param-value>org.apache.wicket.spring.SpringWebApplicationFactory</param-value>
+		</init-param>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>spring.request-context-filter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+	<filter-mapping>
+		<filter-name>rb.filter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+	<filter-mapping>
+		<filter-name>wicket.brouker</filter-name>
+		<url-pattern>/*</url-pattern>
+		<dispatcher>REQUEST</dispatcher>
+	</filter-mapping>
+
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>/WEB-INF/spring/spring-context-*.xml</param-value>
+	</context-param>
+
+	<listener>
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+	</listener>
+    
+    <listener>
+        <listener-class>org.springframework.web.context.request.RequestContextListener</listener-class>
+    </listener>
+
+	<servlet>
+		<servlet-name>rest-servlet</servlet-name>
+		<servlet-class>
+            de.lichtflut.rb.rest.container.servlet.SpringServlet
+		</servlet-class>
+		<init-param>
+			<param-name>
+                 com.sun.jersey.config.property.packages
+            </param-name>
+			<param-value>de.lichtflut.rb.rest</param-value>
+		</init-param>
+        <init-param>
+            <param-name>com.sun.jersey.api.json.POJOMappingFeature</param-name>
+        <param-value>true</param-value>
+        </init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>rest-servlet</servlet-name>
+		<url-pattern>/service/*</url-pattern>
+	</servlet-mapping>
+
+</web-app>
