@@ -29,6 +29,10 @@
 	<logger name="org.arastreju">
 		<level value="info" />
 	</logger>
+
+    <logger name="org.arastreju.bindings.neo4j.impl.AssociationHandler">
+        <level value="debug" />
+    </logger>
 	
 	<logger name="org.arastreju.bindings.neo4j.query">
 		<level value="info" />

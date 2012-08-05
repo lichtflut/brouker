@@ -9,7 +9,7 @@
 	<description>Brouker Web Application</description>
 	
 	<properties>
-		<rb.version>0.4.1-SNAPSHOT</rb.version>
+		<rb.version>0.5.0-SNAPSHOT</rb.version>
 		<springframework.version>3.1.0.RELEASE</springframework.version>
 		<wicket.version>1.5.4</wicket.version>
 		<jetty.version>6.1.25</jetty.version>
