@@ -81,5 +81,9 @@
         <property name="messagingService" ref="messagingService"/>
         <property name="securityConfiguration" ref="securityConfig"/>
     </bean>
+
+    <bean id="fileService" class="de.lichtflut.rb.core.services.impl.FileServiceImpl" scope="request">
+        <constructor-arg index="0"><value>content-repo/brouker-config.properties</value></constructor-arg>
+    </bean>
     
 </beans>
