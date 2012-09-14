@@ -7,12 +7,6 @@
 
 	<display-name>Brouker</display-name>
 
-	<!-- There are three means to configure Wickets configuration mode and they 
-		are tested in the order given. 1) A system property: -Dwicket.configuration 
-		2) servlet specific <init-param> 3) context specific <context-param> The 
-		value might be either "development" (reloading when templates change) or 
-		"deployment". If no configuration is found, "development" is the default. -->
-
 	<filter>
 		<filter-name>spring.request-context-filter</filter-name>
 		<filter-class>org.springframework.web.filter.RequestContextFilter</filter-class>
