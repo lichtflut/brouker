@@ -4,12 +4,7 @@
 package de.lichtflut.brouker;
 
 import de.lichtflut.rb.application.base.LoginPage;
-import org.apache.wicket.Application;
 import org.apache.wicket.Page;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.springframework.web.context.WebApplicationContext;
-import org.springframework.web.context.support.WebApplicationContextUtils;
 
 import de.lichtflut.brouker.pages.WelcomePage;
 import de.lichtflut.rb.application.RBApplication;
@@ -24,7 +19,6 @@ import de.lichtflut.rb.application.graphvis.FlowChartInfoVisPage;
 import de.lichtflut.rb.application.graphvis.HierarchyInfoVisPage;
 import de.lichtflut.rb.application.graphvis.PeripheryViewPage;
 import de.lichtflut.rb.application.resourceview.EntityDetailPage;
-import de.lichtflut.rb.core.RBConfig;
 
 /**
  * <p>
