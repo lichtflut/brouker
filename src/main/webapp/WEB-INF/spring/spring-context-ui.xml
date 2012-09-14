@@ -86,4 +86,9 @@
         <constructor-arg index="0"><value>content-repo/brouker-config.properties</value></constructor-arg>
     </bean>
     
+    <bean id="fileService" class="de.lichtflut.rb.core.services.impl.FileServiceImpl" >
+    	<constructor-arg index="0"><value>content-repo/repository-config.properties</value></constructor-arg>
+    	 <constructor-arg index="1" ref="rbConfig"/>
+    </bean>
+    
 </beans>

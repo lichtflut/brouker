@@ -55,15 +55,17 @@
             access manager:
             class: FQN of class implementing the AccessManager interface
         -->
-        <AccessManager class="org.apache.jackrabbit.core.security.DefaultAccessManager">
+        <AccessManager class="org.apache.jackrabbit.core.security.SimpleAccessManager">
             <!-- <param name="config" value="${rep.home}/access.xml"/> -->
         </AccessManager>
 
-        <LoginModule class="org.apache.jackrabbit.core.security.authentication.DefaultLoginModule">
+        <LoginModule class="org.apache.jackrabbit.core.security.simple.SimpleLoginModule">
            <!-- 
               anonymous user name ('anonymous' is the default value)
             -->
            <param name="anonymousId" value="anonymous"/>
+           
+           <param name="glasnost0812" value="glasnost"/>
            <!--
               administrator user id (default value if param is missing is 'admin')
             -->
@@ -99,12 +101,13 @@
             Search index and the file system it uses.
             class: FQN of class implementing the QueryHandler interface
         -->
+        <!-- 
         <SearchIndex class="org.apache.jackrabbit.core.query.lucene.SearchIndex">
             <param name="path" value="${wsp.home}/index"/>
             <param name="supportHighlighting" value="true"/>
         </SearchIndex>
+         -->
     </Workspace>
-
     <!--
         Configures the versioning
     -->
@@ -133,11 +136,12 @@
         Search index for content that is shared repository wide
         (/jcr:system tree, contains mainly versions)
     -->
+    <!-- 
     <SearchIndex class="org.apache.jackrabbit.core.query.lucene.SearchIndex">
         <param name="path" value="${rep.home}/repository/index"/>
         <param name="supportHighlighting" value="true"/>
     </SearchIndex>
-
+     -->
     <!--
         Run with a cluster journal
     -->
@@ -145,3 +149,4 @@
         <Journal class="org.apache.jackrabbit.core.journal.MemoryJournal"/>
     </Cluster>
 </Repository>
+
