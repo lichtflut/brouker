@@ -29,9 +29,7 @@ import org.apache.wicket.request.handler.RenderPageRequestHandler;
  */
 public class BroukerRequestCycleListener extends AbstractRequestCycleListener {
 
-    /**
-	 * {@inheritDoc}
-	 */
+    @Override
 	public IRequestHandler onException(final RequestCycle cycle, Exception ex) {
 		if (ex instanceof PageExpiredException) {
 			return getTargetTo(new InternalErrorPage(ex));
