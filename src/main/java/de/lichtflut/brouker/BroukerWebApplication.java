@@ -77,4 +77,8 @@ public class BroukerWebApplication extends RBApplication {
         mountPage("logout", LogoutPage.class);
     }
 
+    @Override
+    public boolean supportsUnauthenticatedAccess() {
+        return false;
+    }
 }

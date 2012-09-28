@@ -30,7 +30,7 @@ public class BroukerEmailConfiguration implements EmailConfiguration {
 
 	private static final String APPLICATION_SUPPORT_NAME = "Glasnost Support Team";
 
-	private static final String APPLICATION_SUPPORT_EMAIL = "support@lichtflut.de";
+	private static final String APPLICATION_SUPPORT_EMAIL = "webck@lichtflut.de";
 
 	private static EmailConfiguration INSTANCE;
 
