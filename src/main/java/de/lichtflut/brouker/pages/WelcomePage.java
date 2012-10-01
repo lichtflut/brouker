@@ -3,9 +3,12 @@
  */
 package de.lichtflut.brouker.pages;
 
+import de.lichtflut.rb.application.custom.PerspectivePage;
 import org.apache.wicket.request.mapper.parameter.PageParameters;
 
 import de.lichtflut.rb.application.base.RBBasePage;
+import org.arastreju.sge.model.ResourceID;
+import org.arastreju.sge.model.SimpleResourceID;
 
 /**
  * <p>
@@ -18,13 +21,18 @@ import de.lichtflut.rb.application.base.RBBasePage;
  *
  * @author Oliver Tigges
  */
-public class WelcomePage extends RBBasePage {
+public class WelcomePage extends PerspectivePage {
+
+    public static final ResourceID WELCOME_PERSPECTIVE_ID =
+            new SimpleResourceID("http://rb.lichtflut.de/brouker/perspectives/welcome");
+
+    // ----------------------------------------------------
 
 	/**
-	 * @param parameters
+     * Constructor.
 	 */
-	public WelcomePage(final PageParameters parameters) {
-		super(parameters);
+	public WelcomePage() {
+		super(WELCOME_PERSPECTIVE_ID);
 	}
 	
 }

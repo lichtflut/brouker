@@ -4,6 +4,8 @@
 package de.lichtflut.brouker;
 
 import de.lichtflut.rb.application.base.LoginPage;
+import de.lichtflut.rb.core.viewspec.MenuItem;
+import de.lichtflut.rb.webck.components.navigation.NavigationNode;
 import org.apache.wicket.Page;
 
 import de.lichtflut.brouker.pages.WelcomePage;
@@ -19,6 +21,9 @@ import de.lichtflut.rb.application.graphvis.FlowChartInfoVisPage;
 import de.lichtflut.rb.application.graphvis.HierarchyInfoVisPage;
 import de.lichtflut.rb.application.graphvis.PeripheryViewPage;
 import de.lichtflut.rb.application.resourceview.EntityDetailPage;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * <p>
@@ -78,7 +83,16 @@ public class BroukerWebApplication extends RBApplication {
     }
 
     @Override
-    public boolean supportsUnauthenticatedAccess() {
-        return false;
+    public List<NavigationNode> getFirstLevelNavigation(List<MenuItem> menuItems) {
+        final List<NavigationNode> nodes = new ArrayList<NavigationNode>();
+        nodes.add(createPageNode(WelcomePage.class, "navigation.start-page"));
+        nodes.addAll(super.getFirstLevelNavigation(menuItems));
+        return nodes;
     }
+
+    @Override
+    public boolean supportsUnauthenticatedAccess() {
+        return true;
+    }
+
 }
