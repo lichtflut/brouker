@@ -9,6 +9,23 @@
     <import resource="classpath:spring-context-ui.xml"/>
     <import resource="classpath:spring-context-auth.xml"/>
 
+    <bean id="propertyPlaceholderConfigurer"
+          class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="properties">
+            <props>
+                <!-- Property defaults, that can be overridden in brouker.properties -->
+                <prop key="rb.messaging.smtp-server">goldfinger.lichtflut.de</prop>
+
+            </props>
+        </property>
+        <property name="locations">
+            <list>
+                <value>classpath:brouker.properties</value>
+            </list>
+        </property>
+        <property name="ignoreResourceNotFound" value="true"/>
+    </bean>
+
     <bean id="rbConfig" class="de.lichtflut.rb.core.config.RBConfig">
         <constructor-arg value="brouker"></constructor-arg>
     </bean>
@@ -29,9 +46,8 @@
 
     <bean id="emailConfiguration" class="de.lichtflut.brouker.conf.BroukerEmailConfiguration"/>
 
-    <bean id="fileService" class="de.lichtflut.rb.core.services.impl.FileServiceImpl" >
-        <constructor-arg index="0"><value>content-repo/repository.xml</value></constructor-arg>
-        <constructor-arg index="1" ref="rbConfig"/>
+    <bean id="fileService" class="de.lichtflut.rb.core.services.impl.SimpleFileService" >
+        <constructor-arg index="0" ref="rbConfig"/>
     </bean>
 
 </beans>

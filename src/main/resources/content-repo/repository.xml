@@ -103,7 +103,7 @@
         -->
         <!-- 
         <SearchIndex class="org.apache.jackrabbit.core.query.lucene.SearchIndex">
-            <param name="path" value="${wsp.home}/index"/>
+            <param name="id" value="${wsp.home}/index"/>
             <param name="supportHighlighting" value="true"/>
         </SearchIndex>
          -->
@@ -138,7 +138,7 @@
     -->
     <!-- 
     <SearchIndex class="org.apache.jackrabbit.core.query.lucene.SearchIndex">
-        <param name="path" value="${rep.home}/repository/index"/>
+        <param name="id" value="${rep.home}/repository/index"/>
         <param name="supportHighlighting" value="true"/>
     </SearchIndex>
      -->

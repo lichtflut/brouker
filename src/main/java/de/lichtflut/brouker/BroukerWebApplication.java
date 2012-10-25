@@ -92,7 +92,7 @@ public class BroukerWebApplication extends RBApplication {
 
     @Override
     public boolean supportsUnauthenticatedAccess() {
-        return true;
+        return false;
     }
 
 }
