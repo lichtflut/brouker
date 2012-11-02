@@ -9,24 +9,24 @@
     <import resource="classpath:spring-context-ui.xml"/>
     <import resource="classpath:spring-context-auth.xml"/>
 
-    <bean id="propertyPlaceholderConfigurer"
-          class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
-        <property name="properties">
+    <bean id="emailProperties" class="de.lichtflut.rb.core.config.ConfigurationProperties">
+        <constructor-arg index="0" value="de.lichtflut.rb.config"/>
+        <constructor-arg index="1">
             <props>
-                <!-- Property defaults, that can be overridden in brouker.properties -->
-                <prop key="rb.messaging.smtp-server">goldfinger.lichtflut.de</prop>
-
+                <prop key="email-service.smtp-server">goldfinger.lichtflut.de</prop>
+                <prop key="email-service.smtp-user">noreply</prop>
+                <prop key="email-service.smtp-password">MI821rfc</prop>
+                <prop key="email-service.suppert-name">Brouker</prop>
+                <prop key="email-service.support-email">noreply@glasnost.lichtflut.de</prop>
+                <prop key="email-service.application-name">Glasnost Support Team</prop>
+                <prop key="email-service.application-email">webck@lichtflut.de</prop>
             </props>
-        </property>
-        <property name="locations">
-            <list>
-                <value>classpath:brouker.properties</value>
-            </list>
-        </property>
-        <property name="ignoreResourceNotFound" value="true"/>
+        </constructor-arg>
     </bean>
 
-    <bean id="emailConfig" class="de.lichtflut.brouker.conf.BroukerEmailConfiguration"/>
+    <bean id="emailConfig" class="de.lichtflut.rb.core.config.PropertyBasedEmailConfiguration">
+        <constructor-arg index="0" ref="emailProperties"/>
+    </bean>
 
     <bean id="securityConfig" class="de.lichtflut.rb.application.extensions.DefaultSecurityConfiguration"/>
 
