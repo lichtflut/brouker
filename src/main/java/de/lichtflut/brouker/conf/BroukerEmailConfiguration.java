@@ -3,7 +3,7 @@
  */
 package de.lichtflut.brouker.conf;
 
-import de.lichtflut.rb.core.messaging.EmailConfiguration;
+import de.lichtflut.rb.core.config.EmailConfiguration;
 
 /**
  * <p>

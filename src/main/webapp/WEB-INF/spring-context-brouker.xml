@@ -26,25 +26,28 @@
         <property name="ignoreResourceNotFound" value="true"/>
     </bean>
 
-    <bean id="rbConfig" class="de.lichtflut.rb.core.config.RBConfig">
-        <constructor-arg value="brouker"></constructor-arg>
-    </bean>
+    <bean id="emailConfig" class="de.lichtflut.brouker.conf.BroukerEmailConfiguration"/>
 
     <bean id="securityConfig" class="de.lichtflut.rb.application.extensions.DefaultSecurityConfiguration"/>
 
-    <!--  Application and paths -->
+    <bean id="domainValidator" class="de.lichtflut.rb.application.common.DefaultDomainValidator"/>
 
-    <bean id="wicketApplication" class="de.lichtflut.brouker.BroukerWebApplication" />
+    <bean id="rbConfig" class="de.lichtflut.rb.core.config.RBConfig">
+        <constructor-arg value="brouker"></constructor-arg>
+        <property name="emailConfiguration" ref="emailConfig"/>
+        <property name="securityConfiguration" ref="securityConfig"/>
+        <property name="domainValidator" ref="domainValidator"/>
+    </bean>
+
+    <bean id="wicketApplication" class="de.lichtflut.brouker.BroukerWebApplication" >
+        <property name="config" ref="rbConfig"/>
+    </bean>
 
     <bean id="queryServicePathBuilder" class="de.lichtflut.rb.webck.config.DefaultQueryServicePathBuilder">
     </bean>
 
     <bean id="resourceLinkProvider" class="de.lichtflut.rb.application.extensions.RBResourceLinkProvider">
     </bean>
-
-    <bean id="domainInitializer" class="de.lichtflut.rb.application.common.RBDomainInitializer"/>
-
-    <bean id="emailConfiguration" class="de.lichtflut.brouker.conf.BroukerEmailConfiguration"/>
 
     <bean id="fileService" class="de.lichtflut.rb.core.services.impl.SimpleFileService" >
         <constructor-arg index="0" ref="rbConfig"/>
