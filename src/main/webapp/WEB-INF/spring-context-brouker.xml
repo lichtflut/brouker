@@ -30,6 +30,10 @@
 
     <bean id="securityConfig" class="de.lichtflut.rb.application.extensions.DefaultSecurityConfiguration"/>
 
+    <bean id="fsConfig" class="de.lichtflut.rb.core.config.FileServiceConfiguration">
+        <property name="implementingClass" value="de.lichtflut.rb.core.services.impl.SimpleFileService"/>
+    </bean>
+
     <bean id="domainValidator" class="de.lichtflut.rb.application.common.DefaultDomainValidator"/>
 
     <bean id="rbConfig" class="de.lichtflut.rb.core.config.RBConfig">
@@ -37,6 +41,7 @@
         <property name="emailConfiguration" ref="emailConfig"/>
         <property name="securityConfiguration" ref="securityConfig"/>
         <property name="domainValidator" ref="domainValidator"/>
+        <property name="fileServiceConfiguration" ref="fsConfig"/>
     </bean>
 
     <bean id="wicketApplication" class="de.lichtflut.brouker.BroukerWebApplication" >
@@ -47,10 +52,6 @@
     </bean>
 
     <bean id="resourceLinkProvider" class="de.lichtflut.rb.application.extensions.RBResourceLinkProvider">
-    </bean>
-
-    <bean id="fileService" class="de.lichtflut.rb.core.services.impl.SimpleFileService" >
-        <constructor-arg index="0" ref="rbConfig"/>
     </bean>
 
 </beans>
