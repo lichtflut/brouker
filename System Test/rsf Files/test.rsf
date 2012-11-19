@@ -1,0 +1,80 @@
+namespace "http://rb.lichtflut.de/test#" prefix "test"
+namespace "http://rb.lichtflut.de/public-constraints#" prefix "constraint"
+
+
+schema for "test:Person" {
+	label-rule : "test:hasFirstname test:hasLastname"
+					
+	property "test:hasFirstname" [1..1] {
+		field-label : "First name"
+		field-label[de] : "Vorname"
+		datatype : "String"
+	}
+	
+	property "test:hasLastname" [1..1] {
+		field-label : "Last name"
+		field-label[de] : "Nachname"
+		datatype : "String"
+	}
+	
+	property "test:hasAddress" [0..1] {
+		field-label : "Address"
+		field-label[de] : "Adresse"
+		datatype : "Resource"
+		resource-constraint : "test:Address"
+	}
+	
+	property "test:hasDateOfBirth" [0..1] {
+		field-label : "Birthdate"
+		field-label[de] : "Geburtstag"
+		datatype : "Date"
+	}
+	
+	property "test:hasEmail" [0..n] {
+		field-label : "E-Mail"
+		datatype : "string"
+		reference-constraint : "constraint:EmailConstraint"
+	}
+	
+	property "test:hasContactData" [0..n] {
+		field-label : "Phone contacts"
+		field-label[de] : "Kontaktdaten"
+		datatype : "Resource"
+		resource-constraint : "test:ContactData"
+	}
+	
+	property "test:hasSpouse" [0..1] {
+		field-label : "Spouse"
+		field-label[de] : "Partner/Gatte"
+		datatype : "Resource"
+		resource-constraint : "test:Person"
+	}
+	
+	property "test:hasChild" [0..n] {
+		field-label : "Children"
+		field-label[de] : "Kinder"
+		datatype : "Resource"
+		resource-constraint : "test:Person"
+	}
+	
+	property "test:hasLanguageSkill" [0..n] {
+		field-label : "Language skills"
+		field-label[de] : "Sprachen"
+		datatype : "Resource"
+		resource-constraint : "test:LanguageSkill"
+	}
+	
+	property "test:isEmployedBy" [0..n] {
+		field-label : "Embloyed by"
+		field-label[de] : "Angestellt bei"
+		datatype : "Resource"
+		resource-constraint : "test:LanguageSkill"
+	}
+	
+	property "test:hasExpertise" [0..n] {
+		field-label : "Expertise"
+		datatype : "Resource"
+		resource-constraint : "test:Expertise"
+	}
+	
+}
