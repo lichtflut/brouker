@@ -1,0 +1,29 @@
+<projectDescription>
+  <name>brouker</name>
+  <comment>Brouker Web Application. NO_M2ECLIPSE_SUPPORT: Project files created with the maven-eclipse-plugin are not supported in M2Eclipse.</comment>
+  <projects>
+    <project>arastreju.sge</project>
+    <project>lf.content-repository-jr</project>
+    <project>lf.resource-browser.app-foundation</project>
+    <project>lf.resource-browser.core</project>
+    <project>lf.resource-browser.rest-api</project>
+    <project>lf.resource-browser.webck</project>
+  </projects>
+  <buildSpec>
+    <buildCommand>
+      <name>org.eclipse.jdt.core.javabuilder</name>
+    </buildCommand>
+    <buildCommand>
+      <name>org.eclipse.wst.common.project.facet.core.builder</name>
+    </buildCommand>
+    <buildCommand>
+      <name>org.eclipse.wst.validation.validationbuilder</name>
+    </buildCommand>
+  </buildSpec>
+  <natures>
+    <nature>org.eclipse.wst.common.project.facet.core.nature</nature>
+    <nature>org.eclipse.jdt.core.javanature</nature>
+    <nature>org.eclipse.wst.common.modulecore.ModuleCoreNature</nature>
+    <nature>org.eclipse.jem.workbench.JavaEMFNature</nature>
+  </natures>
+</projectDescription>
