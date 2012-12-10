@@ -10,13 +10,11 @@
   </classpathentry>
   <classpathentry kind="var" path="M2_REPO/javax/xml/bind/jaxb-api/2.2.2/jaxb-api-2.2.2.jar" sourcepath="M2_REPO/javax/xml/bind/jaxb-api/2.2.2/jaxb-api-2.2.2-sources.jar">
     <attributes>
-      <attribute value="jar:file:/C:/Users/r/.m2/repository/javax/xml/bind/jaxb-api/2.2.2/jaxb-api-2.2.2-javadoc.jar!/" name="javadoc_location"/>
       <attribute value="/WEB-INF/lib" name="org.eclipse.jst.component.dependency"/>
     </attributes>
   </classpathentry>
   <classpathentry kind="var" path="M2_REPO/javax/jcr/jcr/2.0/jcr-2.0.jar" sourcepath="M2_REPO/javax/jcr/jcr/2.0/jcr-2.0-sources.jar">
     <attributes>
-      <attribute value="jar:file:/C:/Users/r/.m2/repository/javax/jcr/jcr/2.0/jcr-2.0-javadoc.jar!/" name="javadoc_location"/>
       <attribute value="/WEB-INF/lib" name="org.eclipse.jst.component.dependency"/>
     </attributes>
   </classpathentry>
@@ -32,7 +30,6 @@
   </classpathentry>
   <classpathentry kind="var" path="M2_REPO/org/owasp/antisamy/antisamy/1.4.5/antisamy-1.4.5.jar" sourcepath="M2_REPO/org/owasp/antisamy/antisamy/1.4.5/antisamy-1.4.5-sources.jar">
     <attributes>
-      <attribute value="jar:file:/C:/Users/r/.m2/repository/org/owasp/antisamy/antisamy/1.4.5/antisamy-1.4.5-javadoc.jar!/" name="javadoc_location"/>
       <attribute value="/WEB-INF/lib" name="org.eclipse.jst.component.dependency"/>
     </attributes>
   </classpathentry>
@@ -43,13 +40,11 @@
   </classpathentry>
   <classpathentry kind="var" path="M2_REPO/org/antlr/antlr/3.1.3/antlr-3.1.3.jar" sourcepath="M2_REPO/org/antlr/antlr/3.1.3/antlr-3.1.3-sources.jar">
     <attributes>
-      <attribute value="jar:file:/C:/Users/r/.m2/repository/org/antlr/antlr/3.1.3/antlr-3.1.3-javadoc.jar!/" name="javadoc_location"/>
       <attribute value="/WEB-INF/lib" name="org.eclipse.jst.component.dependency"/>
     </attributes>
   </classpathentry>
   <classpathentry kind="var" path="M2_REPO/org/antlr/antlr-runtime/3.1.3/antlr-runtime-3.1.3.jar" sourcepath="M2_REPO/org/antlr/antlr-runtime/3.1.3/antlr-runtime-3.1.3-sources.jar">
     <attributes>
-      <attribute value="jar:file:/C:/Users/r/.m2/repository/org/antlr/antlr-runtime/3.1.3/antlr-runtime-3.1.3-javadoc.jar!/" name="javadoc_location"/>
       <attribute value="/WEB-INF/lib" name="org.eclipse.jst.component.dependency"/>
     </attributes>
   </classpathentry>
@@ -86,19 +81,16 @@
   </classpathentry>
   <classpathentry kind="var" path="M2_REPO/cglib/cglib/2.2/cglib-2.2.jar" sourcepath="M2_REPO/cglib/cglib/2.2/cglib-2.2-sources.jar">
     <attributes>
-      <attribute value="jar:file:/C:/Users/r/.m2/repository/cglib/cglib/2.2/cglib-2.2-javadoc.jar!/" name="javadoc_location"/>
       <attribute value="/WEB-INF/lib" name="org.eclipse.jst.component.dependency"/>
     </attributes>
   </classpathentry>
   <classpathentry kind="var" path="M2_REPO/commons-codec/commons-codec/1.2/commons-codec-1.2.jar">
     <attributes>
-      <attribute value="jar:file:/C:/Users/r/.m2/repository/commons-codec/commons-codec/1.2/commons-codec-1.2-javadoc.jar!/" name="javadoc_location"/>
       <attribute value="/WEB-INF/lib" name="org.eclipse.jst.component.dependency"/>
     </attributes>
   </classpathentry>
   <classpathentry kind="var" path="M2_REPO/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar" sourcepath="M2_REPO/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1-sources.jar">
     <attributes>
-      <attribute value="jar:file:/C:/Users/r/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1-javadoc.jar!/" name="javadoc_location"/>
       <attribute value="/WEB-INF/lib" name="org.eclipse.jst.component.dependency"/>
     </attributes>
   </classpathentry>
@@ -114,19 +106,16 @@
   </classpathentry>
   <classpathentry kind="var" path="M2_REPO/commons-io/commons-io/2.2/commons-io-2.2.jar" sourcepath="M2_REPO/commons-io/commons-io/2.2/commons-io-2.2-sources.jar">
     <attributes>
-      <attribute value="jar:file:/C:/Users/r/.m2/repository/commons-io/commons-io/2.2/commons-io-2.2-javadoc.jar!/" name="javadoc_location"/>
       <attribute value="/WEB-INF/lib" name="org.eclipse.jst.component.dependency"/>
     </attributes>
   </classpathentry>
   <classpathentry kind="var" path="M2_REPO/org/apache/commons/commons-lang3/3.0.1/commons-lang3-3.0.1.jar" sourcepath="M2_REPO/org/apache/commons/commons-lang3/3.0.1/commons-lang3-3.0.1-sources.jar">
     <attributes>
-      <attribute value="jar:file:/C:/Users/r/.m2/repository/org/apache/commons/commons-lang3/3.0.1/commons-lang3-3.0.1-javadoc.jar!/" name="javadoc_location"/>
       <attribute value="/WEB-INF/lib" name="org.eclipse.jst.component.dependency"/>
     </attributes>
   </classpathentry>
   <classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar" sourcepath="M2_REPO/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar">
     <attributes>
-      <attribute value="jar:file:/C:/Users/r/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-javadoc.jar!/" name="javadoc_location"/>
       <attribute value="/WEB-INF/lib" name="org.eclipse.jst.component.dependency"/>
     </attributes>
   </classpathentry>
@@ -147,7 +136,6 @@
   </classpathentry>
   <classpathentry kind="var" path="M2_REPO/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.jar" sourcepath="M2_REPO/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1-sources.jar">
     <attributes>
-      <attribute value="jar:file:/C:/Users/r/.m2/repository/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1-javadoc.jar!/" name="javadoc_location"/>
       <attribute value="/WEB-INF/lib" name="org.eclipse.jst.component.dependency"/>
     </attributes>
   </classpathentry>
@@ -158,19 +146,16 @@
   </classpathentry>
   <classpathentry kind="var" path="M2_REPO/org/apache/jackrabbit/jackrabbit-api/2.5.1/jackrabbit-api-2.5.1.jar" sourcepath="M2_REPO/org/apache/jackrabbit/jackrabbit-api/2.5.1/jackrabbit-api-2.5.1-sources.jar">
     <attributes>
-      <attribute value="jar:file:/C:/Users/r/.m2/repository/org/apache/jackrabbit/jackrabbit-api/2.5.1/jackrabbit-api-2.5.1-javadoc.jar!/" name="javadoc_location"/>
       <attribute value="/WEB-INF/lib" name="org.eclipse.jst.component.dependency"/>
     </attributes>
   </classpathentry>
   <classpathentry kind="var" path="M2_REPO/org/apache/jackrabbit/jackrabbit-core/2.5.1/jackrabbit-core-2.5.1.jar" sourcepath="M2_REPO/org/apache/jackrabbit/jackrabbit-core/2.5.1/jackrabbit-core-2.5.1-sources.jar">
     <attributes>
-      <attribute value="jar:file:/C:/Users/r/.m2/repository/org/apache/jackrabbit/jackrabbit-core/2.5.1/jackrabbit-core-2.5.1-javadoc.jar!/" name="javadoc_location"/>
       <attribute value="/WEB-INF/lib" name="org.eclipse.jst.component.dependency"/>
     </attributes>
   </classpathentry>
   <classpathentry kind="var" path="M2_REPO/org/apache/jackrabbit/jackrabbit-jcr-commons/2.5.1/jackrabbit-jcr-commons-2.5.1.jar" sourcepath="M2_REPO/org/apache/jackrabbit/jackrabbit-jcr-commons/2.5.1/jackrabbit-jcr-commons-2.5.1-sources.jar">
     <attributes>
-      <attribute value="jar:file:/C:/Users/r/.m2/repository/org/apache/jackrabbit/jackrabbit-jcr-commons/2.5.1/jackrabbit-jcr-commons-2.5.1-javadoc.jar!/" name="javadoc_location"/>
       <attribute value="/WEB-INF/lib" name="org.eclipse.jst.component.dependency"/>
     </attributes>
   </classpathentry>
@@ -181,7 +166,6 @@
   </classpathentry>
   <classpathentry kind="var" path="M2_REPO/org/apache/jackrabbit/jackrabbit-spi-commons/2.5.1/jackrabbit-spi-commons-2.5.1.jar" sourcepath="M2_REPO/org/apache/jackrabbit/jackrabbit-spi-commons/2.5.1/jackrabbit-spi-commons-2.5.1-sources.jar">
     <attributes>
-      <attribute value="jar:file:/C:/Users/r/.m2/repository/org/apache/jackrabbit/jackrabbit-spi-commons/2.5.1/jackrabbit-spi-commons-2.5.1-javadoc.jar!/" name="javadoc_location"/>
       <attribute value="/WEB-INF/lib" name="org.eclipse.jst.component.dependency"/>
     </attributes>
   </classpathentry>
@@ -212,55 +196,46 @@
   </classpathentry>
   <classpathentry kind="var" path="M2_REPO/org/slf4j/jcl-over-slf4j/1.6.4/jcl-over-slf4j-1.6.4.jar" sourcepath="M2_REPO/org/slf4j/jcl-over-slf4j/1.6.4/jcl-over-slf4j-1.6.4-sources.jar">
     <attributes>
-      <attribute value="jar:file:/C:/Users/r/.m2/repository/org/slf4j/jcl-over-slf4j/1.6.4/jcl-over-slf4j-1.6.4-javadoc.jar!/" name="javadoc_location"/>
       <attribute value="/WEB-INF/lib" name="org.eclipse.jst.component.dependency"/>
     </attributes>
   </classpathentry>
   <classpathentry kind="var" path="M2_REPO/com/sun/jersey/jersey-core/1.8/jersey-core-1.8.jar" sourcepath="M2_REPO/com/sun/jersey/jersey-core/1.8/jersey-core-1.8-sources.jar">
     <attributes>
-      <attribute value="jar:file:/C:/Users/r/.m2/repository/com/sun/jersey/jersey-core/1.8/jersey-core-1.8-javadoc.jar!/" name="javadoc_location"/>
       <attribute value="/WEB-INF/lib" name="org.eclipse.jst.component.dependency"/>
     </attributes>
   </classpathentry>
   <classpathentry kind="var" path="M2_REPO/com/sun/jersey/jersey-json/1.8/jersey-json-1.8.jar" sourcepath="M2_REPO/com/sun/jersey/jersey-json/1.8/jersey-json-1.8-sources.jar">
     <attributes>
-      <attribute value="jar:file:/C:/Users/r/.m2/repository/com/sun/jersey/jersey-json/1.8/jersey-json-1.8-javadoc.jar!/" name="javadoc_location"/>
       <attribute value="/WEB-INF/lib" name="org.eclipse.jst.component.dependency"/>
     </attributes>
   </classpathentry>
   <classpathentry kind="var" path="M2_REPO/com/sun/jersey/jersey-server/1.8/jersey-server-1.8.jar" sourcepath="M2_REPO/com/sun/jersey/jersey-server/1.8/jersey-server-1.8-sources.jar">
     <attributes>
-      <attribute value="jar:file:/C:/Users/r/.m2/repository/com/sun/jersey/jersey-server/1.8/jersey-server-1.8-javadoc.jar!/" name="javadoc_location"/>
       <attribute value="/WEB-INF/lib" name="org.eclipse.jst.component.dependency"/>
     </attributes>
   </classpathentry>
   <classpathentry kind="var" path="M2_REPO/com/sun/jersey/contribs/jersey-spring/1.8/jersey-spring-1.8.jar" sourcepath="M2_REPO/com/sun/jersey/contribs/jersey-spring/1.8/jersey-spring-1.8-sources.jar">
     <attributes>
-      <attribute value="jar:file:/C:/Users/r/.m2/repository/com/sun/jersey/contribs/jersey-spring/1.8/jersey-spring-1.8-javadoc.jar!/" name="javadoc_location"/>
       <attribute value="/WEB-INF/lib" name="org.eclipse.jst.component.dependency"/>
     </attributes>
   </classpathentry>
   <classpathentry kind="var" path="M2_REPO/org/codehaus/jettison/jettison/1.1/jettison-1.1.jar" sourcepath="M2_REPO/org/codehaus/jettison/jettison/1.1/jettison-1.1-sources.jar">
     <attributes>
-      <attribute value="jar:file:/C:/Users/r/.m2/repository/org/codehaus/jettison/jettison/1.1/jettison-1.1-javadoc.jar!/" name="javadoc_location"/>
       <attribute value="/WEB-INF/lib" name="org.eclipse.jst.component.dependency"/>
     </attributes>
   </classpathentry>
   <classpathentry kind="var" path="M2_REPO/rhino/js/1.7R2/js-1.7R2.jar" sourcepath="M2_REPO/rhino/js/1.7R2/js-1.7R2-sources.jar">
     <attributes>
-      <attribute value="jar:file:/C:/Users/r/.m2/repository/rhino/js/1.7R2/js-1.7R2-javadoc.jar!/" name="javadoc_location"/>
       <attribute value="/WEB-INF/lib" name="org.eclipse.jst.component.dependency"/>
     </attributes>
   </classpathentry>
   <classpathentry kind="var" path="M2_REPO/junit/junit/4.10/junit-4.10.jar" sourcepath="M2_REPO/junit/junit/4.10/junit-4.10-sources.jar">
     <attributes>
-      <attribute value="jar:file:/C:/Users/r/.m2/repository/junit/junit/4.10/junit-4.10-javadoc.jar!/" name="javadoc_location"/>
       <attribute value="/WEB-INF/lib" name="org.eclipse.jst.component.dependency"/>
     </attributes>
   </classpathentry>
   <classpathentry kind="var" path="M2_REPO/net/sourceforge/jexcelapi/jxl/2.6.12/jxl-2.6.12.jar" sourcepath="M2_REPO/net/sourceforge/jexcelapi/jxl/2.6.12/jxl-2.6.12-sources.jar">
     <attributes>
-      <attribute value="jar:file:/C:/Users/r/.m2/repository/net/sourceforge/jexcelapi/jxl/2.6.12/jxl-2.6.12-javadoc.jar!/" name="javadoc_location"/>
       <attribute value="/WEB-INF/lib" name="org.eclipse.jst.component.dependency"/>
     </attributes>
   </classpathentry>
@@ -281,13 +256,11 @@
   </classpathentry>
   <classpathentry kind="var" path="M2_REPO/org/apache/lucene/lucene-core/3.5.0/lucene-core-3.5.0.jar" sourcepath="M2_REPO/org/apache/lucene/lucene-core/3.5.0/lucene-core-3.5.0-sources.jar">
     <attributes>
-      <attribute value="jar:file:/C:/Users/r/.m2/repository/org/apache/lucene/lucene-core/3.5.0/lucene-core-3.5.0-javadoc.jar!/" name="javadoc_location"/>
       <attribute value="/WEB-INF/lib" name="org.eclipse.jst.component.dependency"/>
     </attributes>
   </classpathentry>
   <classpathentry kind="var" path="M2_REPO/net/sourceforge/nekohtml/nekohtml/1.9.12/nekohtml-1.9.12.jar" sourcepath="M2_REPO/net/sourceforge/nekohtml/nekohtml/1.9.12/nekohtml-1.9.12-sources.jar">
     <attributes>
-      <attribute value="jar:file:/C:/Users/r/.m2/repository/net/sourceforge/nekohtml/nekohtml/1.9.12/nekohtml-1.9.12-javadoc.jar!/" name="javadoc_location"/>
       <attribute value="/WEB-INF/lib" name="org.eclipse.jst.component.dependency"/>
     </attributes>
   </classpathentry>
@@ -312,6 +285,11 @@
     </attributes>
   </classpathentry>
   <classpathentry kind="var" path="M2_REPO/org/neo4j/neo4j-kernel/1.8/neo4j-kernel-1.8.jar" sourcepath="M2_REPO/org/neo4j/neo4j-kernel/1.8/neo4j-kernel-1.8-sources.jar">
+    <attributes>
+      <attribute value="/WEB-INF/lib" name="org.eclipse.jst.component.dependency"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/neo4j/neo4j-kernel/1.8/neo4j-kernel-1.8-tests.jar" sourcepath="M2_REPO/org/neo4j/neo4j-kernel/1.8/neo4j-kernel-1.8-test-sources.jar">
     <attributes>
       <attribute value="/WEB-INF/lib" name="org.eclipse.jst.component.dependency"/>
     </attributes>
@@ -358,13 +336,11 @@
   </classpathentry>
   <classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar" sourcepath="M2_REPO/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1-sources.jar">
     <attributes>
-      <attribute value="jar:file:/C:/Users/r/.m2/repository/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1-javadoc.jar!/" name="javadoc_location"/>
       <attribute value="/WEB-INF/lib" name="org.eclipse.jst.component.dependency"/>
     </attributes>
   </classpathentry>
   <classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar" sourcepath="M2_REPO/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1-sources.jar">
     <attributes>
-      <attribute value="jar:file:/C:/Users/r/.m2/repository/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1-javadoc.jar!/" name="javadoc_location"/>
       <attribute value="/WEB-INF/lib" name="org.eclipse.jst.component.dependency"/>
     </attributes>
   </classpathentry>

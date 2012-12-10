@@ -19,16 +19,16 @@ Class-Path: activation-1.1.jar antisamy-1.4.5.jar antlr-2.7.7.jar antl
  ar lf.resource-browser.webck.jar log4j-1.2.14.jar lucene-core-3.5.0.j
  ar mail-1.4.jar nekohtml-1.9.12.jar neo4j-1.8.jar neo4j-graph-algo-1.
  8.jar neo4j-graph-matching-1.8.jar neo4j-jmx-1.8.jar neo4j-kernel-1.8
- .jar neo4j-lucene-index-1.8.jar neo4j-udc-1.8.jar sesame-model-2.6.1.
- jar sesame-rio-api-2.6.1.jar sesame-rio-n3-2.6.1.jar sesame-rio-rdfxm
- l-2.6.1.jar sesame-rio-turtle-2.6.1.jar sesame-util-2.6.1.jar slf4j-a
- pi-1.6.1.jar slf4j-log4j12-1.6.1.jar spring-aop-3.1.0.RELEASE.jar spr
- ing-asm-3.1.0.RELEASE.jar spring-beans-3.1.0.RELEASE.jar spring-conte
- xt-3.1.0.RELEASE.jar spring-core-3.1.0.RELEASE.jar spring-expression-
- 3.1.0.RELEASE.jar spring-web-3.1.0.RELEASE.jar stax-api-1.0-2.jar sta
- x-api-1.0.1.jar stringtemplate-3.2.jar tika-core-1.0.jar wicket-core-
- 1.5.8.jar wicket-extensions-1.5.7.jar wicket-ioc-1.5.8.jar wicket-req
- uest-1.5.8.jar wicket-spring-1.5.8.jar wicket-util-1.5.8.jar wiquery-
- core-1.5.7.jar wiquery-jquery-ui-1.5.7.jar xercesImpl-2.8.1.jar xml-a
- pis-1.3.03.jar xml-apis-ext-1.3.04.jar
+ .jar neo4j-kernel-1.8-tests.jar neo4j-lucene-index-1.8.jar neo4j-udc-
+ 1.8.jar sesame-model-2.6.1.jar sesame-rio-api-2.6.1.jar sesame-rio-n3
+ -2.6.1.jar sesame-rio-rdfxml-2.6.1.jar sesame-rio-turtle-2.6.1.jar se
+ same-util-2.6.1.jar slf4j-api-1.6.1.jar slf4j-log4j12-1.6.1.jar sprin
+ g-aop-3.1.0.RELEASE.jar spring-asm-3.1.0.RELEASE.jar spring-beans-3.1
+ .0.RELEASE.jar spring-context-3.1.0.RELEASE.jar spring-core-3.1.0.REL
+ EASE.jar spring-expression-3.1.0.RELEASE.jar spring-web-3.1.0.RELEASE
+ .jar stax-api-1.0-2.jar stax-api-1.0.1.jar stringtemplate-3.2.jar tik
+ a-core-1.0.jar wicket-core-1.5.8.jar wicket-extensions-1.5.7.jar wick
+ et-ioc-1.5.8.jar wicket-request-1.5.8.jar wicket-spring-1.5.8.jar wic
+ ket-util-1.5.8.jar wiquery-core-1.5.7.jar wiquery-jquery-ui-1.5.7.jar
+  xercesImpl-2.8.1.jar xml-apis-1.3.03.jar xml-apis-ext-1.3.04.jar
 
