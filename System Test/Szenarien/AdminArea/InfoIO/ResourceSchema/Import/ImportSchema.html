@@ -4,28 +4,54 @@
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="selenium.base" href="http://localhost:8080/brouker" />
-<title>LoginCase</title>
+<title>ImportSchema</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3">LoginCase</td></tr>
+<tr><td rowspan="1" colspan="3">ImportSchema</td></tr>
 </thead><tbody>
 <tr>
-	<td>type</td>
-	<td>name=loginID</td>
-	<td>roy.f@lichtflut.de</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>name=password</td>
-	<td>lichtflut</td>
+	<td>open</td>
+	<td>/brouker/welcome?3</td>
+	<td></td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>name=login</td>
+	<td>link=Admin area</td>
 	<td></td>
 </tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Info IO</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=importLink1c</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=file</td>
+	<td>C:\Users\r\Documents\LichtFlut\Projekte\brouker\System Test\rsf Files\test.rsf</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=upload20</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Type System</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=link26</td>
+	<td></td>
+</tr>
+
 </tbody></table>
 </body>
 </html>
