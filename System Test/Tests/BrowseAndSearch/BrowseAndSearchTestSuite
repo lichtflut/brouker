@@ -8,7 +8,12 @@
 <body>
 <table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
 <tr><td><b>Test Suite</b></td></tr>
-<tr><td><a href="BrowseAndSearchTestSuite.html">BrowseAndSearchTestSuite</a></td></tr>
+<tr><td><a href="../Login/LoadLogIn.html">LoadLogIn</a></td></tr>
+<tr><td><a href="../../Szenarien/Login/LoginCase.html">LoginCase</a></td></tr>
+<tr><td><a href="LoadBrowseAndSearch.html">LoadBrowseAndSearch</a></td></tr>
+<tr><td><a href="SearchEntity/SearchEntityNull.html">SearchEntityNull</a></td></tr>
+<tr><td><a href="SearchEntity/SearchFalseEntity.html">SearchFalseEntity</a></td></tr>
+<tr><td><a href="SearchEntity/SearchCorrectEntity.html">SearchCorrectEntity</a></td></tr>
 </tbody></table>
 </body>
 </html>

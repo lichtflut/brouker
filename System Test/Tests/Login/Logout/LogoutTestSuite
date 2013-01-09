@@ -8,11 +8,8 @@
 <body>
 <table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
 <tr><td><b>Test Suite</b></td></tr>
-<tr><td><a href="../Login/LoadLogIn.html">LoadLogIn</a></td></tr>
-<tr><td><a href="../../Szenarien/Login/LoginCase.html">LoginCase</a></td></tr>
-<tr><td><a href="VerifyStart.html">VerifyStart</a></td></tr>
-<tr><td><a href="ChangingDomain.html">ChangingDomain</a></td></tr>
-<tr><td><a href="ConfigurePerspective.html">ConfigurePerspective</a></td></tr>
+<tr><td><a href="ClickLogout.html">ClickLogout</a></td></tr>
+<tr><td><a href="VerifyElementsLoginPanel.html">VerifyElementsLoginPanel</a></td></tr>
 </tbody></table>
 </body>
 </html>
