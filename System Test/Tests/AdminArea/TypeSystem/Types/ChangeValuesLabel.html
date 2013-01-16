@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost:8181/" />
+<title>ChangeValuesLabel</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">ChangeValuesLabel</td></tr>
+</thead><tbody>
+<!--Changing the Field Label-->
+<tr>
+	<td>click</td>
+	<td>xpath=/html/body/div/div[2]/div/div/div/div[2]/div/div[2]/div/div/div[2]/form/div[5]/div[2]/div[2]/span/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//span/input</td>
+	<td></td>
+</tr>
+<!--Storing "Target" in var. "varFieldLabel"-->
+<tr>
+	<td>store</td>
+	<td>NewStreet</td>
+	<td>varFieldLabel</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//span/input</td>
+	<td>${varFieldLabel}</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>xpath=/html/body/div/div[2]/div/div/div/div[2]/div/div[2]/div/div/div[2]/form/div[5]/div[2]/div[2]/span/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/div/div[2]/div/div/div/div[2]/div/div[2]/div/div/div[2]/form/div[5]/div[2]/div[2]/span/span</td>
+	<td>${varFieldLabel}</td>
+</tr>
+<!--Changing the Cardinality-->
+<tr>
+	<td>click</td>
+	<td>//div[3]/span/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//span/input</td>
+	<td></td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>[0..0]</td>
+	<td>varCardinality</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//span/input</td>
+	<td>${varCardinality}</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>xpath=/html/body/div/div[2]/div/div/div/div[2]/div/div[2]/div/div/div[2]/form/div[5]/div[2]/div[3]/span/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/div/div[2]/div/div/div/div[2]/div/div[2]/div/div/div[2]/form/div[5]/div[2]/div[3]/span/span</td>
+	<td>[n..0]</td>
+</tr>
+<!--Changing the Datatype-->
+<!--Changing the Constraints-->
+<tr>
+	<td>click</td>
+	<td>xpath=/html/body/div/div[2]/div/div/div/div[2]/div/div[2]/div/div/div[2]/form/div[5]/div[2]/div[5]/span/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//span/input</td>
+	<td></td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>City</td>
+	<td>varConstraints</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//span/input</td>
+	<td>${varConstraints}</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>xpath=/html/body/div/div[2]/div/div/div/div[2]/div/div[2]/div/div/div[2]/form/div[5]/div[2]/div[5]/span/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/div/div[2]/div/div/div/div[2]/div/div[2]/div/div/div[2]/form/div[5]/div[2]/div[5]/span/span</td>
+	<td>${varConstraints}</td>
+</tr>
+<!--The same with NULL values-->
+<tr>
+	<td>click</td>
+	<td>xpath=/html/body/div/div[2]/div/div/div/div[2]/div/div[2]/div/div/div[2]/form/div[5]/div[2]/div[2]/span/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//span/input</td>
+	<td></td>
+</tr>
+<tr>
+	<td>store</td>
+	<td></td>
+	<td>varFieldLabelNull</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//span/input</td>
+	<td>${varFieldLabelNull}</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>xpath=/html/body/div/div[2]/div/div/div/div[2]/div/div[2]/div/div/div[2]/form/div[5]/div[2]/div[2]/span/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/div/div[2]/div/div/div/div[2]/div/div[2]/div/div/div[2]/form/div[5]/div[2]/div[2]/span/span</td>
+	<td>...</td>
+</tr>
+<!--Changing the Cardinality-->
+<tr>
+	<td>click</td>
+	<td>//div[3]/span/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//span/input</td>
+	<td></td>
+</tr>
+<tr>
+	<td>store</td>
+	<td></td>
+	<td>varCardinalityNull</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//span/input</td>
+	<td>${varCardinalityNull}</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>xpath=/html/body/div/div[2]/div/div/div/div[2]/div/div[2]/div/div/div[2]/form/div[5]/div[2]/div[3]/span/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/div/div[2]/div/div/div/div[2]/div/div[2]/div/div/div[2]/form/div[5]/div[2]/div[3]/span/span</td>
+	<td>[n..n]</td>
+</tr>
+</tbody></table>
+</body>
+</html>
