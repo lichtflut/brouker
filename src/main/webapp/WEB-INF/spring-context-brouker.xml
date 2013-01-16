@@ -14,6 +14,7 @@
         <constructor-arg index="1">
             <props>
                 <prop key="email-service.smtp-server">goldfinger.lichtflut.de</prop>
+            
                 <prop key="email-service.smtp-user">noreply</prop>
                 <prop key="email-service.smtp-password">MI821rfc</prop>
                 <prop key="email-service.suppert-name">Brouker</prop>
