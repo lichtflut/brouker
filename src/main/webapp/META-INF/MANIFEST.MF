@@ -1,34 +1,36 @@
 Manifest-Version: 1.0
 Class-Path: activation-1.1.jar antisamy-1.4.5.jar antlr-2.7.7.jar antl
  r-3.1.3.jar antlr-runtime-3.1.3.jar aopalliance-1.0.jar arastreju-neo
- 4j-0.8.0-SNAPSHOT.jar arastreju.sge.jar asm-3.1.jar batik-css-1.7.jar
-  batik-ext-1.7.jar batik-util-1.7.jar cglib-2.2.jar commons-codec-1.2
- .jar commons-collections-3.2.1.jar commons-dbcp-1.3.jar commons-httpc
- lient-3.1.jar commons-io-2.2.jar commons-lang3-3.0.1.jar commons-logg
- ing-1.1.1.jar commons-pool-1.5.4.jar concurrent-1.3.4.jar derby-10.5.
- 3.0_1.jar geronimo-jta_1.1_spec-1.1.1.jar hamcrest-core-1.1.jar jackr
- abbit-api-2.5.1.jar jackrabbit-core-2.5.1.jar jackrabbit-jcr-commons-
- 2.5.1.jar jackrabbit-spi-2.5.1.jar jackrabbit-spi-commons-2.5.1.jar j
- ackson-core-asl-1.9.10.jar jackson-jaxrs-1.9.10.jar jackson-mapper-as
- l-1.9.10.jar jackson-xc-1.9.10.jar jaxb-api-2.2.2.jar jaxb-impl-2.2.3
- -1.jar jcl-over-slf4j-1.6.4.jar jcr-2.0.jar jersey-core-1.8.jar jerse
- y-json-1.8.jar jersey-server-1.8.jar jersey-spring-1.8.jar jettison-1
- .1.jar js-1.7R2.jar junit-4.10.jar jxl-2.6.12.jar lf.content-reposito
- ry-jr.jar lf.foundation.infra-1.1.1.jar lf.resource-browser.app-found
- ation.jar lf.resource-browser.core.jar lf.resource-browser.rest-api.j
- ar lf.resource-browser.webck.jar log4j-1.2.14.jar lucene-core-3.5.0.j
- ar mail-1.4.jar nekohtml-1.9.12.jar neo4j-1.8.jar neo4j-graph-algo-1.
- 8.jar neo4j-graph-matching-1.8.jar neo4j-jmx-1.8.jar neo4j-kernel-1.8
- .jar neo4j-kernel-1.8-tests.jar neo4j-lucene-index-1.8.jar neo4j-udc-
- 1.8.jar sesame-model-2.6.1.jar sesame-rio-api-2.6.1.jar sesame-rio-n3
- -2.6.1.jar sesame-rio-rdfxml-2.6.1.jar sesame-rio-turtle-2.6.1.jar se
- same-util-2.6.1.jar slf4j-api-1.6.1.jar slf4j-log4j12-1.6.1.jar sprin
- g-aop-3.1.0.RELEASE.jar spring-asm-3.1.0.RELEASE.jar spring-beans-3.1
- .0.RELEASE.jar spring-context-3.1.0.RELEASE.jar spring-core-3.1.0.REL
- EASE.jar spring-expression-3.1.0.RELEASE.jar spring-web-3.1.0.RELEASE
- .jar stax-api-1.0-2.jar stax-api-1.0.1.jar stringtemplate-3.2.jar tik
- a-core-1.0.jar wicket-core-1.5.8.jar wicket-extensions-1.5.7.jar wick
- et-ioc-1.5.8.jar wicket-request-1.5.8.jar wicket-spring-1.5.8.jar wic
- ket-util-1.5.8.jar wiquery-core-1.5.7.jar wiquery-jquery-ui-1.5.7.jar
-  xercesImpl-2.8.1.jar xml-apis-1.3.03.jar xml-apis-ext-1.3.04.jar
+ 4j-0.8.0-SNAPSHOT.jar arastreju.sge-0.8.0-SNAPSHOT.jar asm-3.1.jar ba
+ tik-css-1.7.jar batik-ext-1.7.jar batik-util-1.7.jar cglib-2.2.jar co
+ mmons-codec-1.2.jar commons-collections-3.2.1.jar commons-dbcp-1.3.ja
+ r commons-httpclient-3.1.jar commons-io-2.2.jar commons-lang3-3.0.1.j
+ ar commons-logging-1.1.1.jar commons-pool-1.5.4.jar concurrent-1.3.4.
+ jar derby-10.5.3.0_1.jar geronimo-jta_1.1_spec-1.1.1.jar hamcrest-cor
+ e-1.1.jar jackrabbit-api-2.5.1.jar jackrabbit-core-2.5.1.jar jackrabb
+ it-jcr-commons-2.5.1.jar jackrabbit-spi-2.5.1.jar jackrabbit-spi-comm
+ ons-2.5.1.jar jackson-core-asl-1.9.10.jar jackson-jaxrs-1.9.10.jar ja
+ ckson-mapper-asl-1.9.10.jar jackson-xc-1.9.10.jar jaxb-api-2.2.2.jar 
+ jaxb-impl-2.2.3-1.jar jcl-over-slf4j-1.6.4.jar jcr-2.0.jar jersey-cor
+ e-1.8.jar jersey-json-1.8.jar jersey-server-1.8.jar jersey-spring-1.8
+ .jar jettison-1.1.jar js-1.7R2.jar junit-4.10.jar jxl-2.6.12.jar lf.c
+ ontent-repository-jr-0.1-SNAPSHOT.jar lf.foundation.infra-1.1.1.jar l
+ f.resource-browser.app-foundation-0.5.0-SNAPSHOT.jar lf.resource-brow
+ ser.core-0.5.0-SNAPSHOT.jar lf.resource-browser.rest-api-0.5.0-SNAPSH
+ OT.jar lf.resource-browser.webck-0.5.0-SNAPSHOT.jar log4j-1.2.14.jar 
+ lucene-core-3.5.0.jar mail-1.4.jar nekohtml-1.9.12.jar neo4j-1.8.jar 
+ neo4j-graph-algo-1.8.jar neo4j-graph-matching-1.8.jar neo4j-jmx-1.8.j
+ ar neo4j-kernel-1.8.jar neo4j-kernel-1.8-tests.jar neo4j-lucene-index
+ -1.8.jar neo4j-udc-1.8.jar sesame-model-2.6.1.jar sesame-rio-api-2.6.
+ 1.jar sesame-rio-n3-2.6.1.jar sesame-rio-rdfxml-2.6.1.jar sesame-rio-
+ turtle-2.6.1.jar sesame-util-2.6.1.jar slf4j-api-1.6.1.jar slf4j-log4
+ j12-1.6.1.jar spring-aop-3.1.0.RELEASE.jar spring-asm-3.1.0.RELEASE.j
+ ar spring-beans-3.1.0.RELEASE.jar spring-context-3.1.0.RELEASE.jar sp
+ ring-core-3.1.0.RELEASE.jar spring-expression-3.1.0.RELEASE.jar sprin
+ g-web-3.1.0.RELEASE.jar stax-api-1.0-2.jar stax-api-1.0.1.jar stringt
+ emplate-3.2.jar tika-core-1.0.jar wicket-core-1.5.8.jar wicket-extens
+ ions-1.5.7.jar wicket-ioc-1.5.8.jar wicket-request-1.5.8.jar wicket-s
+ pring-1.5.8.jar wicket-util-1.5.8.jar wiquery-core-1.5.7.jar wiquery-
+ jquery-ui-1.5.7.jar xercesImpl-2.8.1.jar xml-apis-1.3.03.jar xml-apis
+ -ext-1.3.04.jar
 

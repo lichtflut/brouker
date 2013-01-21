@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+<project-modules id="moduleCoreId" project-version="2.0">
   <wb-module deploy-name="brouker">
     <property name="context-root" value="brouker"/>
     <wb-resource deploy-path="/" source-path="src/main/webapp"/>
@@ -24,7 +24,7 @@
     <dependent-module archiveName="arastreju-neo4j-0.8.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/org/arastreju/arastreju-neo4j/0.8.0-SNAPSHOT/arastreju-neo4j-0.8.0-SNAPSHOT.jar">
       <dependency-type>uses</dependency-type>
     </dependent-module>
-    <dependent-module archiveName="arastreju.sge.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/arastreju.sge/arastreju.sge">
+    <dependent-module archiveName="arastreju.sge-0.8.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/org/arastreju/arastreju.sge/0.8.0-SNAPSHOT/arastreju.sge-0.8.0-SNAPSHOT.jar">
       <dependency-type>uses</dependency-type>
     </dependent-module>
     <dependent-module archiveName="asm-3.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/asm/asm/3.1/asm-3.1.jar">
@@ -141,19 +141,22 @@
     <dependent-module archiveName="jxl-2.6.12.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/net/sourceforge/jexcelapi/jxl/2.6.12/jxl-2.6.12.jar">
       <dependency-type>uses</dependency-type>
     </dependent-module>
+    <dependent-module archiveName="lf.content-repository-jr-0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/de/lichtflut/rb/lf.content-repository-jr/0.1-SNAPSHOT/lf.content-repository-jr-0.1-SNAPSHOT.jar">
+      <dependency-type>uses</dependency-type>
+    </dependent-module>
     <dependent-module archiveName="lf.foundation.infra-1.1.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/de/lichtflut/lf.foundation.infra/1.1.1/lf.foundation.infra-1.1.1.jar">
       <dependency-type>uses</dependency-type>
     </dependent-module>
-    <dependent-module archiveName="lf.resource-browser.app-foundation.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/lf.resource-browser.app-foundation/lf.resource-browser.app-foundation">
+    <dependent-module archiveName="lf.resource-browser.app-foundation-0.5.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/de/lichtflut/rb/lf.resource-browser.app-foundation/0.5.0-SNAPSHOT/lf.resource-browser.app-foundation-0.5.0-SNAPSHOT.jar">
       <dependency-type>uses</dependency-type>
     </dependent-module>
-    <dependent-module archiveName="lf.resource-browser.core.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/lf.resource-browser.core/lf.resource-browser.core">
+    <dependent-module archiveName="lf.resource-browser.core-0.5.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/de/lichtflut/rb/lf.resource-browser.core/0.5.0-SNAPSHOT/lf.resource-browser.core-0.5.0-SNAPSHOT.jar">
       <dependency-type>uses</dependency-type>
     </dependent-module>
-    <dependent-module archiveName="lf.resource-browser.rest-api.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/lf.resource-browser.rest-api/lf.resource-browser.rest-api">
+    <dependent-module archiveName="lf.resource-browser.rest-api-0.5.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/de/lichtflut/rb/lf.resource-browser.rest-api/0.5.0-SNAPSHOT/lf.resource-browser.rest-api-0.5.0-SNAPSHOT.jar">
       <dependency-type>uses</dependency-type>
     </dependent-module>
-    <dependent-module archiveName="lf.resource-browser.webck.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/lf.resource-browser.webck/lf.resource-browser.webck">
+    <dependent-module archiveName="lf.resource-browser.webck-0.5.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/de/lichtflut/rb/lf.resource-browser.webck/0.5.0-SNAPSHOT/lf.resource-browser.webck-0.5.0-SNAPSHOT.jar">
       <dependency-type>uses</dependency-type>
     </dependent-module>
     <dependent-module archiveName="log4j-1.2.14.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/log4j/log4j/1.2.14/log4j-1.2.14.jar">
@@ -279,9 +282,6 @@
     <dependent-module archiveName="xml-apis-ext-1.3.04.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/xml-apis/xml-apis-ext/1.3.04/xml-apis-ext-1.3.04.jar">
       <dependency-type>uses</dependency-type>
     </dependent-module>
-        <dependent-module archiveName="lf.content-repository-jr.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/lf.content-repository-jr/lf.content-repository-jr">
-            <dependency-type>uses</dependency-type>
-        </dependent-module>
     <wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/java"/>
     <wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/resources"/>
     <wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/templates"/>

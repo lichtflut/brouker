@@ -35,13 +35,15 @@
         <property name="implementingClass" value="de.lichtflut.rb.core.services.impl.SimpleFileService"/>
     </bean>
 
-    <bean id="domainValidator" class="de.lichtflut.rb.application.common.DefaultDomainValidator"/>
+    <bean id="domainValidator" class="de.lichtflut.rb.core.system.DefaultDomainValidator"/>
 
-    <bean id="rbConfig" class="de.lichtflut.rb.core.config.RBConfig">
+    <bean id="rbConfig" class="de.lichtflut.rb.core.config.RBConfig"  init-method="ready">
         <constructor-arg value="brouker"></constructor-arg>
+        <property name="domainSupervisor">
+        	<bean id="domainSupervisor" class="de.lichtflut.rb.core.system.DomainSupervisor" />
+        </property>
         <property name="emailConfiguration" ref="emailConfig"/>
         <property name="securityConfiguration" ref="securityConfig"/>
-        <property name="domainValidator" ref="domainValidator"/>
         <property name="fileServiceConfiguration" ref="fsConfig"/>
     </bean>
 

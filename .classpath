@@ -10,6 +10,7 @@
   </classpathentry>
   <classpathentry kind="var" path="M2_REPO/javax/xml/bind/jaxb-api/2.2.2/jaxb-api-2.2.2.jar" sourcepath="M2_REPO/javax/xml/bind/jaxb-api/2.2.2/jaxb-api-2.2.2-sources.jar">
     <attributes>
+      <attribute value="jar:file:/Users/nbleisch/.m2/repository/javax/xml/bind/jaxb-api/2.2.2/jaxb-api-2.2.2-javadoc.jar!/" name="javadoc_location"/>
       <attribute value="/WEB-INF/lib" name="org.eclipse.jst.component.dependency"/>
     </attributes>
   </classpathentry>
@@ -58,7 +59,11 @@
       <attribute value="/WEB-INF/lib" name="org.eclipse.jst.component.dependency"/>
     </attributes>
   </classpathentry>
-  <classpathentry kind="src" path="/arastreju.sge"/>
+  <classpathentry kind="var" path="M2_REPO/org/arastreju/arastreju.sge/0.8.0-SNAPSHOT/arastreju.sge-0.8.0-SNAPSHOT.jar" sourcepath="M2_REPO/org/arastreju/arastreju.sge/0.8.0-SNAPSHOT/arastreju.sge-0.8.0-SNAPSHOT-sources.jar">
+    <attributes>
+      <attribute value="/WEB-INF/lib" name="org.eclipse.jst.component.dependency"/>
+    </attributes>
+  </classpathentry>
   <classpathentry kind="var" path="M2_REPO/asm/asm/3.1/asm-3.1.jar" sourcepath="M2_REPO/asm/asm/3.1/asm-3.1-sources.jar">
     <attributes>
       <attribute value="/WEB-INF/lib" name="org.eclipse.jst.component.dependency"/>
@@ -91,6 +96,7 @@
   </classpathentry>
   <classpathentry kind="var" path="M2_REPO/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar" sourcepath="M2_REPO/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1-sources.jar">
     <attributes>
+      <attribute value="jar:file:/Users/nbleisch/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1-javadoc.jar!/" name="javadoc_location"/>
       <attribute value="/WEB-INF/lib" name="org.eclipse.jst.component.dependency"/>
     </attributes>
   </classpathentry>
@@ -116,6 +122,7 @@
   </classpathentry>
   <classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar" sourcepath="M2_REPO/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar">
     <attributes>
+      <attribute value="jar:file:/Users/nbleisch/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-javadoc.jar!/" name="javadoc_location"/>
       <attribute value="/WEB-INF/lib" name="org.eclipse.jst.component.dependency"/>
     </attributes>
   </classpathentry>
@@ -221,6 +228,7 @@
   </classpathentry>
   <classpathentry kind="var" path="M2_REPO/org/codehaus/jettison/jettison/1.1/jettison-1.1.jar" sourcepath="M2_REPO/org/codehaus/jettison/jettison/1.1/jettison-1.1-sources.jar">
     <attributes>
+      <attribute value="jar:file:/Users/nbleisch/.m2/repository/org/codehaus/jettison/jettison/1.1/jettison-1.1-javadoc.jar!/" name="javadoc_location"/>
       <attribute value="/WEB-INF/lib" name="org.eclipse.jst.component.dependency"/>
     </attributes>
   </classpathentry>
@@ -239,16 +247,36 @@
       <attribute value="/WEB-INF/lib" name="org.eclipse.jst.component.dependency"/>
     </attributes>
   </classpathentry>
-  <classpathentry kind="src" path="/lf.content-repository-jr"/>
+  <classpathentry kind="var" path="M2_REPO/de/lichtflut/rb/lf.content-repository-jr/0.1-SNAPSHOT/lf.content-repository-jr-0.1-SNAPSHOT.jar">
+    <attributes>
+      <attribute value="/WEB-INF/lib" name="org.eclipse.jst.component.dependency"/>
+    </attributes>
+  </classpathentry>
   <classpathentry kind="var" path="M2_REPO/de/lichtflut/lf.foundation.infra/1.1.1/lf.foundation.infra-1.1.1.jar">
     <attributes>
       <attribute value="/WEB-INF/lib" name="org.eclipse.jst.component.dependency"/>
     </attributes>
   </classpathentry>
-  <classpathentry kind="src" path="/lf.resource-browser.app-foundation"/>
-  <classpathentry kind="src" path="/lf.resource-browser.core"/>
-  <classpathentry kind="src" path="/lf.resource-browser.rest-api"/>
-  <classpathentry kind="src" path="/lf.resource-browser.webck"/>
+  <classpathentry kind="var" path="M2_REPO/de/lichtflut/rb/lf.resource-browser.app-foundation/0.5.0-SNAPSHOT/lf.resource-browser.app-foundation-0.5.0-SNAPSHOT.jar">
+    <attributes>
+      <attribute value="/WEB-INF/lib" name="org.eclipse.jst.component.dependency"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/de/lichtflut/rb/lf.resource-browser.core/0.5.0-SNAPSHOT/lf.resource-browser.core-0.5.0-SNAPSHOT.jar">
+    <attributes>
+      <attribute value="/WEB-INF/lib" name="org.eclipse.jst.component.dependency"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/de/lichtflut/rb/lf.resource-browser.rest-api/0.5.0-SNAPSHOT/lf.resource-browser.rest-api-0.5.0-SNAPSHOT.jar">
+    <attributes>
+      <attribute value="/WEB-INF/lib" name="org.eclipse.jst.component.dependency"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/de/lichtflut/rb/lf.resource-browser.webck/0.5.0-SNAPSHOT/lf.resource-browser.webck-0.5.0-SNAPSHOT.jar">
+    <attributes>
+      <attribute value="/WEB-INF/lib" name="org.eclipse.jst.component.dependency"/>
+    </attributes>
+  </classpathentry>
   <classpathentry kind="var" path="M2_REPO/log4j/log4j/1.2.14/log4j-1.2.14.jar" sourcepath="M2_REPO/log4j/log4j/1.2.14/log4j-1.2.14-sources.jar">
     <attributes>
       <attribute value="/WEB-INF/lib" name="org.eclipse.jst.component.dependency"/>
@@ -449,5 +477,5 @@
       <attribute value="/WEB-INF/lib" name="org.eclipse.jst.component.dependency"/>
     </attributes>
   </classpathentry>
-  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 </classpath>
