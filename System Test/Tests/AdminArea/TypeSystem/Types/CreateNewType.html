@@ -3,44 +3,47 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="selenium.base" href="http://localhost:8181/" />
-<title>ChangeValues</title>
+<link rel="selenium.base" href="http://goldfinger-dev.lichtflut.de/" />
+<title>CreateNewType</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3">ChangeValues</td></tr>
+<tr><td rowspan="1" colspan="3">CreateNewType</td></tr>
 </thead><tbody>
+<!--Create a new Type, Popup will be opened-->
 <tr>
 	<td>click</td>
-	<td>xpath=/html/body/div/div[2]/div/div/div/div[2]/div/div[2]/div/div/div[2]/form/div[5]/div[2]/div[6]/a[1]</td>
+	<td>link=+ Create new Type</td>
 	<td></td>
 </tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<!--Selecting the PopUp-->
 <tr>
 	<td>selectPopUp</td>
 	<td></td>
 	<td></td>
 </tr>
 <tr>
-	<td>type</td>
-	<td>name=fieldLabel</td>
-	<td>NewStreet</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>name=cardinality</td>
-	<td>[1..2]</td>
-</tr>
-<tr>
 	<td>select</td>
-	<td>xpath=/html/body/div[4]/div[2]/div/form/div[5]/div[2]/select</td>
-	<td>label=Text</td>
+	<td>//select</td>
+	<td>label=http://rb.lichtflut.de/common#</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=name</td>
+	<td>Computer</td>
 </tr>
 <tr>
 	<td>click</td>
-	<td>css=option[value=&quot;TEXT&quot;]</td>
+	<td>//div[2]/div/form/div[6]/button</td>
 	<td></td>
 </tr>
+
 </tbody></table>
 </body>
 </html>

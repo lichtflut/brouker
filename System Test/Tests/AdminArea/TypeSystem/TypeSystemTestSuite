@@ -15,6 +15,14 @@
 <tr><td><a href="../VerifyElementsAdminArea.html">VerifyElementsAdminArea</a></td></tr>
 <tr><td><a href="LoadTypeSystem.html">LoadTypeSystem</a></td></tr>
 <tr><td><a href="VerifyElementsTypeSystem.html">VerifyElementsTypeSystem</a></td></tr>
+<tr><td><a href="Types/VerifyProperty.html">VerifyProperty</a></td></tr>
+<tr><td><a href="Types/ChangeValuesLabel.html">ChangeValuesLabel</a></td></tr>
+<tr><td><a href="Types/WriteCorrectValues.html">WriteCorrectValues</a></td></tr>
+<tr><td><a href="Types/ChangeValues.html">ChangeValuesPopup</a></td></tr>
+<tr><td><a href="Types/CreateNewType.html">CreateNewType</a></td></tr>
+<tr><td><a href="Types/CreateNewTypeWithoutNamespace.html">CreateNewTypeWithoutNamespace</a></td></tr>
+<tr><td><a href="Types/CreateNewTypeWithoutName.html">CreateNewTypeWithoutName</a></td></tr>
+<tr><td><a href="Types/CreateNewTypeWithoutNameAndNamespace.html">CreateNewTypeWithoutNameAndNamespace</a></td></tr>
 </tbody></table>
 </body>
 </html>

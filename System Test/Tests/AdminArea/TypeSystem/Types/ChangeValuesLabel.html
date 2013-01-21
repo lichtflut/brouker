@@ -193,6 +193,47 @@
 	<td>xpath=/html/body/div/div[2]/div/div/div/div[2]/div/div[2]/div/div/div[2]/form/div[5]/div[2]/div[3]/span/span</td>
 	<td>[n..n]</td>
 </tr>
+<!--Changing Constraints-->
+<tr>
+	<td>click</td>
+	<td>xpath=/html/body/div/div[2]/div/div/div/div[2]/div/div[2]/div/div/div[2]/form/div[5]/div[2]/div[5]/span/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//span/input</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeValue</td>
+	<td>//span/input</td>
+	<td>varConstraintsBefore</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//span/input</td>
+	<td>${varConstraints}</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>xpath=/html/body/div/div[2]/div/div/div/div[2]/div/div[2]/div/div/div[2]/form/div[5]/div[2]/div[5]/span/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/div/div[2]/div/div/div/div[2]/div/div[2]/div/div/div[2]/form/div[5]/div[2]/div[5]/span/span</td>
+	<td>${varConstraintsBefore}</td>
+</tr>
+<tr>
+	<td></td>
+	<td></td>
+	<td></td>
+</tr>
 </tbody></table>
 </body>
 </html>
