@@ -11,6 +11,7 @@
 
 	<properties>
 		<rb.version>0.5.1-SNAPSHOT</rb.version>
+        <arastreju.version>0.8.1-SNAPSHOT</arastreju.version>
 		<jetty.version>6.1.25</jetty.version>
 		<jackson.version>1.9.10</jackson.version>
 		<maven.build.timestamp.format>yyyy-MM-dd-HH:mm:ss</maven.build.timestamp.format>
@@ -20,6 +21,14 @@
 
 	<dependencyManagement>
 		<dependencies>
+
+            <!-- Arastreju-Neo4j Binding -->
+
+            <dependency>
+                <groupId>org.arastreju</groupId>
+                <artifactId>arastreju-neo4j</artifactId>
+                <version>${arastreju.version}</version>
+            </dependency>
 
 			<!-- Jackson JSON -->
 
@@ -63,6 +72,11 @@
 			<artifactId>lf.resource-browser.app-foundation</artifactId>
 			<version>${rb.version}</version>
 		</dependency>
+        <dependency>
+            <groupId>org.arastreju</groupId>
+            <artifactId>arastreju-neo4j</artifactId>
+            <scope>runtime</scope>
+        </dependency>
 	</dependencies>
 	<build>
 		<finalName>brouker</finalName>
