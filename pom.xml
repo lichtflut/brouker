@@ -11,7 +11,7 @@
 
 	<properties>
 		<rb.version>0.5.1-SNAPSHOT</rb.version>
-        <arastreju.version>0.8.1-SNAPSHOT</arastreju.version>
+        <arastreju.neo-binding.version>0.8.1</arastreju.neo-binding.version>
 		<jetty.version>6.1.25</jetty.version>
 		<jackson.version>1.9.10</jackson.version>
 		<maven.build.timestamp.format>yyyy-MM-dd-HH:mm:ss</maven.build.timestamp.format>
@@ -27,7 +27,7 @@
             <dependency>
                 <groupId>org.arastreju</groupId>
                 <artifactId>arastreju-neo4j</artifactId>
-                <version>${arastreju.version}</version>
+                <version>${arastreju.neo-binding.version}</version>
             </dependency>
 
 			<!-- Jackson JSON -->
@@ -124,7 +124,7 @@
 					<systemProperties>
 						<systemProperty>
 							<name>de.lichtflut.rb.workdir</name>
-							<value>storage/workdir</value>
+							<value>connection/workdir</value>
 						</systemProperty>
 					</systemProperties>
 				</configuration>
