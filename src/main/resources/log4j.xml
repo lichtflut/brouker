@@ -30,7 +30,7 @@
 		<level value="info" />
 	</logger>
 
-    <logger name="org.arastreju.bindings.neo4j.impl.AssociationHandler">
+    <logger name="org.arastreju.bindings.neo4j.impl.RelationshipManager">
         <level value="debug" />
     </logger>
 	
