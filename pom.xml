@@ -10,8 +10,8 @@
 	<description>Brouker Web Application</description>
 
 	<properties>
-		<rb.version>0.5.1-SNAPSHOT</rb.version>
-        <arastreju.neo-binding.version>0.8.1</arastreju.neo-binding.version>
+		<rb.version>0.6.0-SNAPSHOT</rb.version>
+        <arastreju.neo-binding.version>0.9.1-SNAPSHOT</arastreju.neo-binding.version>
 		<jetty.version>6.1.25</jetty.version>
 		<jackson.version>1.9.10</jackson.version>
 		<maven.build.timestamp.format>yyyy-MM-dd-HH:mm:ss</maven.build.timestamp.format>
