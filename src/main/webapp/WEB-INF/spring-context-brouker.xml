@@ -28,8 +28,6 @@
         <constructor-arg index="0" ref="emailProperties"/>
     </bean>
 
-    <bean id="securityConfig" class="de.lichtflut.rb.application.extensions.DefaultSecurityConfiguration"/>
-
     <bean id="fsConfig" class="de.lichtflut.rb.core.config.FileServiceConfiguration">
         <property name="implementingClass" value="de.lichtflut.rb.core.services.impl.SimpleFileService"/>
     </bean>
@@ -42,7 +40,6 @@
         	<bean id="domainSupervisor" class="de.lichtflut.rb.core.system.DomainSupervisor" />
         </property>
         <property name="emailConfiguration" ref="emailConfig"/>
-        <property name="securityConfiguration" ref="securityConfig"/>
         <property name="fileServiceConfiguration" ref="fsConfig"/>
     </bean>
 
