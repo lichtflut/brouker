@@ -4,6 +4,7 @@
 package de.lichtflut.brouker;
 
 import de.lichtflut.rb.application.base.LoginPage;
+import de.lichtflut.rb.application.extensions.RBRequestCycleListener;
 import de.lichtflut.rb.core.viewspec.MenuItem;
 import de.lichtflut.rb.webck.components.navigation.NavigationNode;
 import org.apache.wicket.Page;
@@ -54,7 +55,7 @@ public class BroukerWebApplication extends RBApplication {
 	public void init() {
         super.init();
 
-        getRequestCycleListeners().add(new BroukerRequestCycleListener());
+        getRequestCycleListeners().add(new RBRequestCycleListener());
 
         getApplicationSettings().setPageExpiredErrorPage(ExpiredErrorPage.class);
         getApplicationSettings().setAccessDeniedPage(DefaultErrorPage.class);
